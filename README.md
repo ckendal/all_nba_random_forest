@@ -11,7 +11,7 @@ Tools: Jupyter Notebook, Python 3.6 (Pandas, Numpy, sklearn, matplotlib)
 
 ### Data Dictionary:
 Columns in dataset "nba_1989_thru_2018.csv":
-- **All_NBA**: (Float) Multiclass labels (0.0, 1.0 , 2.0, 3.0)(O.0 indicates no All-NBA team, (1.0, 2.0, 3.0) refer to 1st, 2nd, 3rd All-NBA teams)
+- **All_NBA**: (Float) Multiclass labels (0.0, 1.0 , 2.0, 3.0) (0.0 indicates no All-NBA team, (1.0, 2.0, 3.0) refer to 1st, 2nd, 3rd All-NBA teams)
 - **Player**: (String) Concatenated string of player name and unique identifier used by Basketball-Reference.
 - **Pos**: (Integer) Basketball player positions numerically enconded. (1: Point Guard, 2: Shooting Guard, 3: Small Forward, 4: Power Forward, 5: Center)
 - **Age**: (Integer) Age of player as of February 1st of that season.
